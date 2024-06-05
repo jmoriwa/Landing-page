@@ -87,6 +87,11 @@
 }
 
 .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
     
 }
 
@@ -94,4 +99,32 @@
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;   
+    /*flex-wrap: wrap;*/
+}
+
+.boxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 5%;
+}
+
+.descrip{
+    width: 200px;
+    text-align: center;
 }
