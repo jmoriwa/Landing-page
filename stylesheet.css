@@ -128,3 +128,52 @@
     width: 200px;
     text-align: center;
 }
+
+.quotesec{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;;
+    align-items: center;
+}
+
+.quote{
+    /*background-color: #E5E7EB;*/
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+    border: solid;
+
+}
+
+.author{
+    font-size: 22px;
+    width: 300px;
+    font-weight: bold;
+    font-style: light italic;
+    border: solid;
+    padding-left: 400px;
+}
+
+.call_container{
+    display: block;
+    margin-block: 6.25rem;
+    padding: 50px;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.125rem 7.5rem;
+    max-width: 64rem;
+    margin: 0 auto;
+    color: var(--off-white);
+    background-color: var(--blue);
+    border-radius: 0.5rem;
+}
