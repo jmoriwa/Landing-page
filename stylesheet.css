@@ -160,20 +160,37 @@
     padding-left: 400px;
 }
 
-.call_container{
+.callout {
     display: block;
     margin-block: 6.25rem;
-    padding: 50px;
 }
 
-.call{
+.callout__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 3.125rem 7.5rem;
     max-width: 64rem;
     margin: 0 auto;
-    color: var(--off-white);
-    background-color: var(--blue);
+    color: #FAF9F8;
+    background-color: #3882F6;
     border-radius: 0.5rem;
+}
+
+.callout__container .text-container h3 {
+    font-size: 24px;
+}
+
+.sign_button{
+    border: 3px solid white;
+    color: #FAF9F8;
+    border-radius: 10%;
+    font-size: 24px;
+
+}
+.footer {
+    padding: 2.5rem;
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #1F2937;
 }
